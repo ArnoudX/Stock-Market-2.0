@@ -9,7 +9,7 @@
 		extra-sbtVersion="0.13"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20141015135603"/>
+		date="20141015163957"/>
 	<dependencies>
 		<module organisation="com.github.mpeltonen" name="sbt-idea">
 			<revision name="1.5.2" status="release" pubdate="20131013150137" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://your.project.url" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
@@ -42,24 +42,24 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-echo-play">
-			<revision name="0.1.1.3" status="release" pubdate="20140722120407" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="true" searched="true" default="false" conf="compile, default(compile)" position="3">
-				<metadata-artifact status="successful" details="" size="1732" time="945" location="C:\Users\Arnoud\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.sbt\sbt-echo-play\ivy-0.1.1.3.xml" searched="true" original-local-location="C:\Users\Arnoud\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.sbt\sbt-echo-play\ivy-0.1.1.3.xml.original" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-echo-play/scala_2.10/sbt_0.13/0.1.1.3/ivys/ivy.xml"/>
+			<revision name="0.1.1.3" status="release" pubdate="20140722120407" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="3">
+				<metadata-artifact status="no" details="" size="1734" time="0" location="C:\Users\Arnoud\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.sbt\sbt-echo-play\ivy-0.1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-echo-play/scala_2.10/sbt_0.13/0.1.1.3/ivys/ivy.xml"/>
 				<caller organisation="default" name="play-reactive-mongo-build" conf="test, compile, runtime" rev="0.1.1.3" rev-constraint-default="0.1.1.3" rev-constraint-dynamic="0.1.1.3" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
-					<artifact name="sbt-echo-play" type="jar" ext="jar" status="successful" details="" size="22681" time="1493" location="C:\Users\Arnoud\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.sbt\sbt-echo-play\jars\sbt-echo-play-0.1.1.3.jar">
+					<artifact name="sbt-echo-play" type="jar" ext="jar" status="no" details="" size="22681" time="0" location="C:\Users\Arnoud\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.sbt\sbt-echo-play\jars\sbt-echo-play-0.1.1.3.jar">
 						<origin-location is-local="false" location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-echo-play/scala_2.10/sbt_0.13/0.1.1.3/jars/sbt-echo-play.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="sbt-plugin">
-			<revision name="2.2.3" status="release" pubdate="20140501101824" resolver="typesafe-ivy-releases" artresolver="typesafe-ivy-releases" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="true" searched="true" default="false" conf="compile, default(compile)" position="5">
-				<metadata-artifact status="successful" details="" size="4317" time="424" location="C:\Users\Arnoud\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.play\sbt-plugin\ivy-2.2.3.xml" searched="true" original-local-location="C:\Users\Arnoud\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.play\sbt-plugin\ivy-2.2.3.xml.original" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.2.3/ivys/ivy.xml"/>
+			<revision name="2.2.3" status="release" pubdate="20140501101824" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="5">
+				<metadata-artifact status="no" details="" size="4319" time="0" location="C:\Users\Arnoud\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.play\sbt-plugin\ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.2.3/ivys/ivy.xml"/>
 				<caller organisation="default" name="play-reactive-mongo-build" conf="test, compile, runtime" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<caller organisation="com.typesafe.sbt" name="sbt-atmos-play" conf="compile" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="0.3.1" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<caller organisation="com.typesafe.sbt" name="sbt-echo-play" conf="compile" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="0.1.1.3" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
-					<artifact name="sbt-plugin" type="jar" ext="jar" status="successful" details="" size="946626" time="1981" location="C:\Users\Arnoud\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.play\sbt-plugin\jars\sbt-plugin-2.2.3.jar">
+					<artifact name="sbt-plugin" type="jar" ext="jar" status="no" details="" size="946626" time="0" location="C:\Users\Arnoud\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.play\sbt-plugin\jars\sbt-plugin-2.2.3.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.2.3/jars/sbt-plugin.jar"/>
 					</artifact>
 				</artifacts>
@@ -237,11 +237,11 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="console_2.10">
-			<revision name="2.2.3" status="release" pubdate="20141015071444" resolver="Typesafe repository" artresolver="Typesafe repository" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="17">
-				<metadata-artifact status="successful" details="" size="1192" time="461" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\console_2.10\ivy-2.2.3.xml" searched="true" original-local-location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\console_2.10\ivy-2.2.3.xml.original" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/console_2.10/2.2.3/console_2.10-2.2.3.pom"/>
+			<revision name="2.2.3" status="release" pubdate="20141015071444" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<metadata-artifact status="no" details="" size="2720" time="0" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\console_2.10\ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/console_2.10/2.2.3/console_2.10-2.2.3.pom"/>
 				<caller organisation="com.typesafe.play" name="sbt-plugin" conf="compile" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="2.2.3"/>
 				<artifacts>
-					<artifact name="console_2.10" type="jar" ext="jar" status="successful" details="" size="34643" time="512" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\console_2.10\jars\console_2.10-2.2.3.jar">
+					<artifact name="console_2.10" type="jar" ext="jar" status="no" details="" size="34643" time="0" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\console_2.10\jars\console_2.10-2.2.3.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/console_2.10/2.2.3/console_2.10-2.2.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -274,11 +274,11 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="templates-compiler_2.10">
-			<revision name="2.2.3" status="release" pubdate="20141015071441" resolver="Typesafe repository" artresolver="Typesafe repository" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="14">
-				<metadata-artifact status="successful" details="" size="1267" time="466" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\templates-compiler_2.10\ivy-2.2.3.xml" searched="true" original-local-location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\templates-compiler_2.10\ivy-2.2.3.xml.original" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates-compiler_2.10/2.2.3/templates-compiler_2.10-2.2.3.pom"/>
+			<revision name="2.2.3" status="release" pubdate="20141015071441" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<metadata-artifact status="no" details="" size="2739" time="0" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\templates-compiler_2.10\ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates-compiler_2.10/2.2.3/templates-compiler_2.10-2.2.3.pom"/>
 				<caller organisation="com.typesafe.play" name="sbt-plugin" conf="compile" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="2.2.3"/>
 				<artifacts>
-					<artifact name="templates-compiler_2.10" type="jar" ext="jar" status="successful" details="" size="341914" time="832" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\templates-compiler_2.10\jars\templates-compiler_2.10-2.2.3.jar">
+					<artifact name="templates-compiler_2.10" type="jar" ext="jar" status="no" details="" size="341914" time="0" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\templates-compiler_2.10\jars\templates-compiler_2.10-2.2.3.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates-compiler_2.10/2.2.3/templates-compiler_2.10-2.2.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -326,11 +326,11 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="routes-compiler_2.10">
-			<revision name="2.2.3" status="release" pubdate="20141015071438" resolver="Typesafe repository" artresolver="Typesafe repository" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="9">
-				<metadata-artifact status="successful" details="" size="1074" time="514" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\routes-compiler_2.10\ivy-2.2.3.xml" searched="true" original-local-location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\routes-compiler_2.10\ivy-2.2.3.xml.original" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/routes-compiler_2.10/2.2.3/routes-compiler_2.10-2.2.3.pom"/>
+			<revision name="2.2.3" status="release" pubdate="20141015071438" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<metadata-artifact status="no" details="" size="2587" time="0" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\routes-compiler_2.10\ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/routes-compiler_2.10/2.2.3/routes-compiler_2.10-2.2.3.pom"/>
 				<caller organisation="com.typesafe.play" name="sbt-plugin" conf="compile" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="2.2.3"/>
 				<artifacts>
-					<artifact name="routes-compiler_2.10" type="jar" ext="jar" status="successful" details="" size="455621" time="799" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\routes-compiler_2.10\jars\routes-compiler_2.10-2.2.3.jar">
+					<artifact name="routes-compiler_2.10" type="jar" ext="jar" status="no" details="" size="455621" time="0" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\routes-compiler_2.10\jars\routes-compiler_2.10-2.2.3.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/routes-compiler_2.10/2.2.3/routes-compiler_2.10-2.2.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -428,22 +428,22 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-exceptions">
-			<revision name="2.2.3" status="release" pubdate="20141015071437" resolver="Typesafe repository" artresolver="Typesafe repository" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="8">
-				<metadata-artifact status="successful" details="" size="617" time="514" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\play-exceptions\ivy-2.2.3.xml" searched="true" original-local-location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\play-exceptions\ivy-2.2.3.xml.original" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-exceptions/2.2.3/play-exceptions-2.2.3.pom"/>
+			<revision name="2.2.3" status="release" pubdate="20141015071437" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<metadata-artifact status="no" details="" size="2269" time="0" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\play-exceptions\ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-exceptions/2.2.3/play-exceptions-2.2.3.pom"/>
 				<caller organisation="com.typesafe.play" name="sbt-plugin" conf="compile" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="2.2.3"/>
 				<artifacts>
-					<artifact name="play-exceptions" type="jar" ext="jar" status="successful" details="" size="4571" time="456" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.2.3.jar">
+					<artifact name="play-exceptions" type="jar" ext="jar" status="no" details="" size="4571" time="0" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.2.3.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-exceptions/2.2.3/play-exceptions-2.2.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="sbt-link">
-			<revision name="2.2.3" status="release" pubdate="20141015071437" resolver="Typesafe repository" artresolver="Typesafe repository" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="6">
-				<metadata-artifact status="successful" details="" size="818" time="435" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\sbt-link\ivy-2.2.3.xml" searched="true" original-local-location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\sbt-link\ivy-2.2.3.xml.original" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/sbt-link/2.2.3/sbt-link-2.2.3.pom"/>
+			<revision name="2.2.3" status="release" pubdate="20141015071437" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<metadata-artifact status="no" details="" size="2423" time="0" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\sbt-link\ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/sbt-link/2.2.3/sbt-link-2.2.3.pom"/>
 				<caller organisation="com.typesafe.play" name="sbt-plugin" conf="compile" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="2.2.3"/>
 				<artifacts>
-					<artifact name="sbt-link" type="jar" ext="jar" status="successful" details="" size="8774" time="455" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\sbt-link\jars\sbt-link-2.2.3.jar">
+					<artifact name="sbt-link" type="jar" ext="jar" status="no" details="" size="8774" time="0" location="C:\Users\Arnoud\.ivy2\cache\com.typesafe.play\sbt-link\jars\sbt-link-2.2.3.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/sbt-link/2.2.3/sbt-link-2.2.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -465,11 +465,11 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-echo">
-			<revision name="0.1.1.3" status="release" pubdate="20140722120355" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="true" searched="true" default="false" conf="compile, default(compile)" position="4">
-				<metadata-artifact status="successful" details="" size="1517" time="945" location="C:\Users\Arnoud\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.sbt\sbt-echo\ivy-0.1.1.3.xml" searched="true" original-local-location="C:\Users\Arnoud\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.sbt\sbt-echo\ivy-0.1.1.3.xml.original" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-echo/scala_2.10/sbt_0.13/0.1.1.3/ivys/ivy.xml"/>
+			<revision name="0.1.1.3" status="release" pubdate="20140722120355" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="4">
+				<metadata-artifact status="no" details="" size="1519" time="0" location="C:\Users\Arnoud\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.sbt\sbt-echo\ivy-0.1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-echo/scala_2.10/sbt_0.13/0.1.1.3/ivys/ivy.xml"/>
 				<caller organisation="com.typesafe.sbt" name="sbt-echo-play" conf="compile" rev="0.1.1.3" rev-constraint-default="0.1.1.3" rev-constraint-dynamic="0.1.1.3" callerrev="0.1.1.3" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
-					<artifact name="sbt-echo" type="jar" ext="jar" status="successful" details="" size="88277" time="1878" location="C:\Users\Arnoud\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.sbt\sbt-echo\jars\sbt-echo-0.1.1.3.jar">
+					<artifact name="sbt-echo" type="jar" ext="jar" status="no" details="" size="88277" time="0" location="C:\Users\Arnoud\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.sbt\sbt-echo\jars\sbt-echo-0.1.1.3.jar">
 						<origin-location is-local="false" location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-echo/scala_2.10/sbt_0.13/0.1.1.3/jars/sbt-echo.jar"/>
 					</artifact>
 				</artifacts>

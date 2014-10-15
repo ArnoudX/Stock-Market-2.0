@@ -79,8 +79,8 @@ Seq[Any](format.raw/*1.4*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Wed Oct 15 14:28:12 CEST 2014
-                    SOURCE: C:/Users/Arnoud/play-reactive-mongo/app/views/index.scala.html
+                    DATE: Wed Oct 15 16:40:14 CEST 2014
+                    SOURCE: C:/Users/Arnoud/Stock-Market-2.0/play-reactive-mongo/app/views/index.scala.html
                     HASH: bc1bd1dae4a9ee6b03824a2af45868e0f05713e5
                     MATRIX: 549->1|644->3|681->6|723->40|762->42|2078->1322|2093->1328|2143->1356|2257->1434|2272->1440|2324->1470|2432->1542|2447->1548|2498->1577|2566->1614
                     LINES: 19->1|22->1|24->3|24->3|24->3|58->37|58->37|58->37|61->40|61->40|61->40|64->43|64->43|64->43|69->48

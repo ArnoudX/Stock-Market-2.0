@@ -1,4 +1,4 @@
-[info] Updating {file:/C:/Users/Arnoud/play-reactive-mongo/}play-reactive-mongo...
+[info] Updating {file:/C:/Users/Arnoud/Stock-Market-2.0/play-reactive-mongo/}play-reactive-mongo...
 [debug] :: resolving dependencies :: play-reactive-mongo#play-reactive-mongo_2.10;0.0.4
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, atmos-trace-compile, atmos-trace-test, atmos-dev, atmos-console, atmos-weave, atmos-sigar, echo-trace-compile, echo-trace-test, echo-weave, echo-sigar]
 [debug] 	validate = true
@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 [compile]
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->org.scala-lang#scala-library;2.10.3 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@127f9c4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f2fb4b
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.10.3
 [debug] 	found org.scala-lang#scala-library;2.10.3 in sbt-chain
@@ -17,27 +17,9 @@
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play_2.10;2.2.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play_2.10;2.2.3 {compile=[default(compile)]}
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.play\play_2.10\2.2.3\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.play#play_2.10;2.2.3
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.play/play_2.10/2.2.3/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.play#play_2.10;2.2.3
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/play/play_2.10/2.2.3/play_2.10-2.2.3.pom
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/play/play_2.10/2.2.3/play_2.10-2.2.3.pom
-[debug] 	public: no ivy file found for com.typesafe.play#play_2.10;2.2.3
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.10/2.2.3/play_2.10-2.2.3.pom
-[debug] 	Typesafe Releases Repository: found md file for com.typesafe.play#play_2.10;2.2.3
-[debug] 		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.10/2.2.3/play_2.10-2.2.3.pom (2.2.3)
-[debug] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.10/2.2.3/play_2.10-2.2.3.pom ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.10/2.2.3/play_2.10-2.2.3.pom
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.10/2.2.3/play_2.10-2.2.3.pom.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.10/2.2.3/play_2.10-2.2.3.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play_2.10;2.2.3!play_2.10.pom(pom.original) (468ms)
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.play\play_2.10\2.2.3\jars\play_2.10.jar
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.play/play_2.10/2.2.3/jars/play_2.10.jar
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/play/play_2.10/2.2.3/play_2.10-2.2.3.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/play/play_2.10/2.2.3/play_2.10-2.2.3.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.10/2.2.3/play_2.10-2.2.3.jar
-[debug] 	found com.typesafe.play#play_2.10;2.2.3 in Typesafe Releases Repository
+[debug] sbt-chain: module revision found in cache: com.typesafe.play#play_2.10;2.2.3
+[debug] 	local: revision in cache: com.typesafe.play#play_2.10;2.2.3
+[debug] 	found com.typesafe.play#play_2.10;2.2.3 in sbt-chain
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->com.typesafe.play#play_2.10;2.2.3 [compile->runtime]
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->com.typesafe.play#play_2.10;2.2.3 [compile->compile]
 [debug] == resolving dependencies com.typesafe.play#play_2.10;2.2.3->com.typesafe.play#sbt-link;2.2.3 [compile->master(*)]
@@ -70,27 +52,9 @@
 [debug] == resolving dependencies com.typesafe.play#play_2.10;2.2.3->com.typesafe.play#templates_2.10;2.2.3 [compile->master(*)]
 [info] Resolving com.typesafe.play#templates_2.10;2.2.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#templates_2.10;2.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.play\templates_2.10\2.2.3\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.play#templates_2.10;2.2.3
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.play/templates_2.10/2.2.3/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.play#templates_2.10;2.2.3
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/play/templates_2.10/2.2.3/templates_2.10-2.2.3.pom
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/play/templates_2.10/2.2.3/templates_2.10-2.2.3.pom
-[debug] 	public: no ivy file found for com.typesafe.play#templates_2.10;2.2.3
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates_2.10/2.2.3/templates_2.10-2.2.3.pom
-[debug] 	Typesafe Releases Repository: found md file for com.typesafe.play#templates_2.10;2.2.3
-[debug] 		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates_2.10/2.2.3/templates_2.10-2.2.3.pom (2.2.3)
-[debug] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates_2.10/2.2.3/templates_2.10-2.2.3.pom ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates_2.10/2.2.3/templates_2.10-2.2.3.pom
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates_2.10/2.2.3/templates_2.10-2.2.3.pom.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates_2.10/2.2.3/templates_2.10-2.2.3.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#templates_2.10;2.2.3!templates_2.10.pom(pom.original) (444ms)
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.play\templates_2.10\2.2.3\jars\templates_2.10.jar
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.play/templates_2.10/2.2.3/jars/templates_2.10.jar
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/play/templates_2.10/2.2.3/templates_2.10-2.2.3.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/play/templates_2.10/2.2.3/templates_2.10-2.2.3.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates_2.10/2.2.3/templates_2.10-2.2.3.jar
-[debug] 	found com.typesafe.play#templates_2.10;2.2.3 in Typesafe Releases Repository
+[debug] sbt-chain: module revision found in cache: com.typesafe.play#templates_2.10;2.2.3
+[debug] 	local: revision in cache: com.typesafe.play#templates_2.10;2.2.3
+[debug] 	found com.typesafe.play#templates_2.10;2.2.3 in sbt-chain
 [debug] == resolving dependencies com.typesafe.play#play_2.10;2.2.3->com.typesafe.play#templates_2.10;2.2.3 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#templates_2.10;2.2.3->com.github.scala-incubator.io#scala-io-file_2.10;0.4.2 [compile->master(*)]
 [info] Resolving com.github.scala-incubator.io#scala-io-file_2.10;0.4.2 ...
@@ -147,27 +111,9 @@
 [debug] == resolving dependencies com.typesafe.play#play_2.10;2.2.3->com.typesafe.play#play-iteratees_2.10;2.2.3 [compile->master(*)]
 [info] Resolving com.typesafe.play#play-iteratees_2.10;2.2.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-iteratees_2.10;2.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.play\play-iteratees_2.10\2.2.3\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.play#play-iteratees_2.10;2.2.3
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.play/play-iteratees_2.10/2.2.3/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.play#play-iteratees_2.10;2.2.3
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.10/2.2.3/play-iteratees_2.10-2.2.3.pom
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.10/2.2.3/play-iteratees_2.10-2.2.3.pom
-[debug] 	public: no ivy file found for com.typesafe.play#play-iteratees_2.10;2.2.3
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.3/play-iteratees_2.10-2.2.3.pom
-[debug] 	Typesafe Releases Repository: found md file for com.typesafe.play#play-iteratees_2.10;2.2.3
-[debug] 		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.3/play-iteratees_2.10-2.2.3.pom (2.2.3)
-[debug] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.3/play-iteratees_2.10-2.2.3.pom ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.3/play-iteratees_2.10-2.2.3.pom
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.3/play-iteratees_2.10-2.2.3.pom.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.3/play-iteratees_2.10-2.2.3.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-iteratees_2.10;2.2.3!play-iteratees_2.10.pom(pom.original) (481ms)
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.play\play-iteratees_2.10\2.2.3\jars\play-iteratees_2.10.jar
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.play/play-iteratees_2.10/2.2.3/jars/play-iteratees_2.10.jar
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.10/2.2.3/play-iteratees_2.10-2.2.3.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.10/2.2.3/play-iteratees_2.10-2.2.3.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.3/play-iteratees_2.10-2.2.3.jar
-[debug] 	found com.typesafe.play#play-iteratees_2.10;2.2.3 in Typesafe Releases Repository
+[debug] sbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.10;2.2.3
+[debug] 	local: revision in cache: com.typesafe.play#play-iteratees_2.10;2.2.3
+[debug] 	found com.typesafe.play#play-iteratees_2.10;2.2.3 in sbt-chain
 [debug] == resolving dependencies com.typesafe.play#play_2.10;2.2.3->com.typesafe.play#play-iteratees_2.10;2.2.3 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.10;2.2.3->org.scala-stm#scala-stm_2.10;0.7 [compile->master(*)]
 [info] Resolving org.scala-stm#scala-stm_2.10;0.7 ...
@@ -201,81 +147,27 @@
 [debug] == resolving dependencies com.typesafe.play#play_2.10;2.2.3->com.typesafe.play#play-json_2.10;2.2.3 [compile->master(*)]
 [info] Resolving com.typesafe.play#play-json_2.10;2.2.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-json_2.10;2.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.play\play-json_2.10\2.2.3\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.play#play-json_2.10;2.2.3
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.play/play-json_2.10/2.2.3/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.play#play-json_2.10;2.2.3
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/play/play-json_2.10/2.2.3/play-json_2.10-2.2.3.pom
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/play/play-json_2.10/2.2.3/play-json_2.10-2.2.3.pom
-[debug] 	public: no ivy file found for com.typesafe.play#play-json_2.10;2.2.3
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.3/play-json_2.10-2.2.3.pom
-[debug] 	Typesafe Releases Repository: found md file for com.typesafe.play#play-json_2.10;2.2.3
-[debug] 		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.3/play-json_2.10-2.2.3.pom (2.2.3)
-[debug] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.3/play-json_2.10-2.2.3.pom ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.3/play-json_2.10-2.2.3.pom
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.3/play-json_2.10-2.2.3.pom.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.3/play-json_2.10-2.2.3.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.10;2.2.3!play-json_2.10.pom(pom.original) (454ms)
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.play\play-json_2.10\2.2.3\jars\play-json_2.10.jar
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.play/play-json_2.10/2.2.3/jars/play-json_2.10.jar
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/play/play-json_2.10/2.2.3/play-json_2.10-2.2.3.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/play/play-json_2.10/2.2.3/play-json_2.10-2.2.3.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.3/play-json_2.10-2.2.3.jar
-[debug] 	found com.typesafe.play#play-json_2.10;2.2.3 in Typesafe Releases Repository
+[debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.10;2.2.3
+[debug] 	local: revision in cache: com.typesafe.play#play-json_2.10;2.2.3
+[debug] 	found com.typesafe.play#play-json_2.10;2.2.3 in sbt-chain
 [debug] == resolving dependencies com.typesafe.play#play_2.10;2.2.3->com.typesafe.play#play-json_2.10;2.2.3 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-json_2.10;2.2.3->com.typesafe.play#play-iteratees_2.10;2.2.3 [compile->master(*)]
 [debug] == resolving dependencies com.typesafe.play#play-json_2.10;2.2.3->com.typesafe.play#play-iteratees_2.10;2.2.3 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-json_2.10;2.2.3->com.typesafe.play#play-functional_2.10;2.2.3 [compile->master(*)]
 [info] Resolving com.typesafe.play#play-functional_2.10;2.2.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-functional_2.10;2.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.play\play-functional_2.10\2.2.3\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.play#play-functional_2.10;2.2.3
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.play/play-functional_2.10/2.2.3/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.play#play-functional_2.10;2.2.3
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.10/2.2.3/play-functional_2.10-2.2.3.pom
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.10/2.2.3/play-functional_2.10-2.2.3.pom
-[debug] 	public: no ivy file found for com.typesafe.play#play-functional_2.10;2.2.3
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.3/play-functional_2.10-2.2.3.pom
-[debug] 	Typesafe Releases Repository: found md file for com.typesafe.play#play-functional_2.10;2.2.3
-[debug] 		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.3/play-functional_2.10-2.2.3.pom (2.2.3)
-[debug] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.3/play-functional_2.10-2.2.3.pom ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.3/play-functional_2.10-2.2.3.pom
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.3/play-functional_2.10-2.2.3.pom.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.3/play-functional_2.10-2.2.3.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.10;2.2.3!play-functional_2.10.pom(pom.original) (465ms)
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.play\play-functional_2.10\2.2.3\jars\play-functional_2.10.jar
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.play/play-functional_2.10/2.2.3/jars/play-functional_2.10.jar
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.10/2.2.3/play-functional_2.10-2.2.3.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.10/2.2.3/play-functional_2.10-2.2.3.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.3/play-functional_2.10-2.2.3.jar
-[debug] 	found com.typesafe.play#play-functional_2.10;2.2.3 in Typesafe Releases Repository
+[debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.10;2.2.3
+[debug] 	local: revision in cache: com.typesafe.play#play-functional_2.10;2.2.3
+[debug] 	found com.typesafe.play#play-functional_2.10;2.2.3 in sbt-chain
 [debug] == resolving dependencies com.typesafe.play#play-json_2.10;2.2.3->com.typesafe.play#play-functional_2.10;2.2.3 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-functional_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)]
 [debug] == resolving dependencies com.typesafe.play#play-functional_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-json_2.10;2.2.3->com.typesafe.play#play-datacommons_2.10;2.2.3 [compile->master(*)]
 [info] Resolving com.typesafe.play#play-datacommons_2.10;2.2.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-datacommons_2.10;2.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.play\play-datacommons_2.10\2.2.3\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.play#play-datacommons_2.10;2.2.3
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.play/play-datacommons_2.10/2.2.3/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.play#play-datacommons_2.10;2.2.3
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.10/2.2.3/play-datacommons_2.10-2.2.3.pom
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.10/2.2.3/play-datacommons_2.10-2.2.3.pom
-[debug] 	public: no ivy file found for com.typesafe.play#play-datacommons_2.10;2.2.3
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.3/play-datacommons_2.10-2.2.3.pom
-[debug] 	Typesafe Releases Repository: found md file for com.typesafe.play#play-datacommons_2.10;2.2.3
-[debug] 		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.3/play-datacommons_2.10-2.2.3.pom (2.2.3)
-[debug] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.3/play-datacommons_2.10-2.2.3.pom ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.3/play-datacommons_2.10-2.2.3.pom
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.3/play-datacommons_2.10-2.2.3.pom.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.3/play-datacommons_2.10-2.2.3.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-datacommons_2.10;2.2.3!play-datacommons_2.10.pom(pom.original) (547ms)
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.play\play-datacommons_2.10\2.2.3\jars\play-datacommons_2.10.jar
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.play/play-datacommons_2.10/2.2.3/jars/play-datacommons_2.10.jar
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.10/2.2.3/play-datacommons_2.10-2.2.3.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.10/2.2.3/play-datacommons_2.10-2.2.3.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.3/play-datacommons_2.10-2.2.3.jar
-[debug] 	found com.typesafe.play#play-datacommons_2.10;2.2.3 in Typesafe Releases Repository
+[debug] sbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.10;2.2.3
+[debug] 	local: revision in cache: com.typesafe.play#play-datacommons_2.10;2.2.3
+[debug] 	found com.typesafe.play#play-datacommons_2.10;2.2.3 in sbt-chain
 [debug] == resolving dependencies com.typesafe.play#play-json_2.10;2.2.3->com.typesafe.play#play-datacommons_2.10;2.2.3 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-datacommons_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)]
 [debug] == resolving dependencies com.typesafe.play#play-datacommons_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)]
@@ -373,26 +265,9 @@
 [debug] == resolving dependencies com.typesafe.play#play_2.10;2.2.3->io.netty#netty;3.7.1.Final [compile->master(*)]
 [info] Resolving io.netty#netty;3.7.1.Final ...
 [debug] sbt-chain: Checking cache for: dependency: io.netty#netty;3.7.1.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\io.netty\netty\3.7.1.Final\ivys\ivy.xml
-[debug] 	local: no ivy file found for io.netty#netty;3.7.1.Final
-[debug] 		tried file:/C:/activator-1.2.10/repository/io.netty/netty/3.7.1.Final/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for io.netty#netty;3.7.1.Final
-[debug] 		tried http://repo1.maven.org/maven2/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.pom
-[debug] 	public: found md file for io.netty#netty;3.7.1.Final
-[debug] 		=> http://repo1.maven.org/maven2/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.pom (3.7.1.Final)
-[debug] downloading http://repo1.maven.org/maven2/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.pom ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.pom
-[debug] 	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.pom.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.pom
-[debug] 	[SUCCESSFUL ] io.netty#netty;3.7.1.Final!netty.pom(pom.original) (285ms)
-[info] Resolving org.sonatype.oss#oss-parent;7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
-[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 	local: revision in cache: org.sonatype.oss#oss-parent;7
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\io.netty\netty\3.7.1.Final\bundles\netty.jar
-[debug] 		tried file:/C:/activator-1.2.10/repository/io.netty/netty/3.7.1.Final/bundles/netty.jar
-[debug] 		tried http://repo1.maven.org/maven2/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.jar
-[debug] 	found io.netty#netty;3.7.1.Final in public
+[debug] sbt-chain: module revision found in cache: io.netty#netty;3.7.1.Final
+[debug] 	local: revision in cache: io.netty#netty;3.7.1.Final
+[debug] 	found io.netty#netty;3.7.1.Final in sbt-chain
 [debug] == resolving dependencies com.typesafe.play#play_2.10;2.2.3->io.netty#netty;3.7.1.Final [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.10;2.2.3->io.netty#netty;3.7.1.Final [compile->runtime(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.10;2.2.3->io.netty#netty;3.7.1.Final [compile->compile]
@@ -1855,27 +1730,9 @@
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->com.typesafe.play#play-test_2.10;2.2.3 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.10;2.2.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-test_2.10;2.2.3 {test=[default(compile)]}
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.play\play-test_2.10\2.2.3\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.play#play-test_2.10;2.2.3
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.play/play-test_2.10/2.2.3/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.play#play-test_2.10;2.2.3
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/play/play-test_2.10/2.2.3/play-test_2.10-2.2.3.pom
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/play/play-test_2.10/2.2.3/play-test_2.10-2.2.3.pom
-[debug] 	public: no ivy file found for com.typesafe.play#play-test_2.10;2.2.3
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-test_2.10/2.2.3/play-test_2.10-2.2.3.pom
-[debug] 	Typesafe Releases Repository: found md file for com.typesafe.play#play-test_2.10;2.2.3
-[debug] 		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-test_2.10/2.2.3/play-test_2.10-2.2.3.pom (2.2.3)
-[debug] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-test_2.10/2.2.3/play-test_2.10-2.2.3.pom ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-test_2.10/2.2.3/play-test_2.10-2.2.3.pom
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-test_2.10/2.2.3/play-test_2.10-2.2.3.pom.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-test_2.10/2.2.3/play-test_2.10-2.2.3.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-test_2.10;2.2.3!play-test_2.10.pom(pom.original) (447ms)
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.play\play-test_2.10\2.2.3\jars\play-test_2.10.jar
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.play/play-test_2.10/2.2.3/jars/play-test_2.10.jar
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/play/play-test_2.10/2.2.3/play-test_2.10-2.2.3.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/play/play-test_2.10/2.2.3/play-test_2.10-2.2.3.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-test_2.10/2.2.3/play-test_2.10-2.2.3.jar
-[debug] 	found com.typesafe.play#play-test_2.10;2.2.3 in Typesafe Releases Repository
+[debug] sbt-chain: module revision found in cache: com.typesafe.play#play-test_2.10;2.2.3
+[debug] 	local: revision in cache: com.typesafe.play#play-test_2.10;2.2.3
+[debug] 	found com.typesafe.play#play-test_2.10;2.2.3 in sbt-chain
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->com.typesafe.play#play-test_2.10;2.2.3 [test->runtime]
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->com.typesafe.play#play-test_2.10;2.2.3 [test->compile]
 [debug] == resolving dependencies com.typesafe.play#play-test_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->master(*)]
@@ -5153,27 +5010,9 @@
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->com.typesafe.play#play-docs_2.10;2.2.3 [docs->default(compile)]
 [info] Resolving com.typesafe.play#play-docs_2.10;2.2.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-docs_2.10;2.2.3 {docs=[default(compile)]}
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.play\play-docs_2.10\2.2.3\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.play#play-docs_2.10;2.2.3
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.play/play-docs_2.10/2.2.3/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.play#play-docs_2.10;2.2.3
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.10/2.2.3/play-docs_2.10-2.2.3.pom
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.10/2.2.3/play-docs_2.10-2.2.3.pom
-[debug] 	public: no ivy file found for com.typesafe.play#play-docs_2.10;2.2.3
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-docs_2.10/2.2.3/play-docs_2.10-2.2.3.pom
-[debug] 	Typesafe Releases Repository: found md file for com.typesafe.play#play-docs_2.10;2.2.3
-[debug] 		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-docs_2.10/2.2.3/play-docs_2.10-2.2.3.pom (2.2.3)
-[debug] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-docs_2.10/2.2.3/play-docs_2.10-2.2.3.pom ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-docs_2.10/2.2.3/play-docs_2.10-2.2.3.pom
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-docs_2.10/2.2.3/play-docs_2.10-2.2.3.pom.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-docs_2.10/2.2.3/play-docs_2.10-2.2.3.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-docs_2.10;2.2.3!play-docs_2.10.pom(pom.original) (563ms)
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.play\play-docs_2.10\2.2.3\jars\play-docs_2.10.jar
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.play/play-docs_2.10/2.2.3/jars/play-docs_2.10.jar
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.10/2.2.3/play-docs_2.10-2.2.3.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.10/2.2.3/play-docs_2.10-2.2.3.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-docs_2.10/2.2.3/play-docs_2.10-2.2.3.jar
-[debug] 	found com.typesafe.play#play-docs_2.10;2.2.3 in Typesafe Releases Repository
+[debug] sbt-chain: module revision found in cache: com.typesafe.play#play-docs_2.10;2.2.3
+[debug] 	local: revision in cache: com.typesafe.play#play-docs_2.10;2.2.3
+[debug] 	found com.typesafe.play#play-docs_2.10;2.2.3 in sbt-chain
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->com.typesafe.play#play-docs_2.10;2.2.3 [docs->runtime]
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->com.typesafe.play#play-docs_2.10;2.2.3 [docs->compile]
 [debug] == resolving dependencies com.typesafe.play#play-docs_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->master(*)]
@@ -7770,7 +7609,7 @@
 [debug] == resolving dependencies for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 [atmos-weave]
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->org.aspectj#aspectjweaver;1.7.3 [atmos-weave->default(compile)]
 [info] Resolving org.aspectj#aspectjweaver;1.7.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@505fd0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ef4531
 [debug] sbt-chain: module revision found in cache: org.aspectj#aspectjweaver;1.7.3
 [debug] 	local: revision in cache: org.aspectj#aspectjweaver;1.7.3
 [debug] 	found org.aspectj#aspectjweaver;1.7.3 in sbt-chain
@@ -8259,27 +8098,9 @@
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->com.typesafe.trace#trace-play-2.2.3;0.1.5 [echo-trace-compile->default(compile)]
 [info] Resolving com.typesafe.trace#trace-play-2.2.3;0.1.5 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.trace#trace-play-2.2.3;0.1.5 {echo-trace-compile=[default(compile)]}
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.trace\trace-play-2.2.3\0.1.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.trace#trace-play-2.2.3;0.1.5
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.trace/trace-play-2.2.3/0.1.5/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.trace#trace-play-2.2.3;0.1.5
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/trace/trace-play-2.2.3/0.1.5/trace-play-2.2.3-0.1.5.pom
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/trace/trace-play-2.2.3/0.1.5/trace-play-2.2.3-0.1.5.pom
-[debug] 	public: no ivy file found for com.typesafe.trace#trace-play-2.2.3;0.1.5
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-2.2.3/0.1.5/trace-play-2.2.3-0.1.5.pom
-[debug] 	Typesafe Releases Repository: found md file for com.typesafe.trace#trace-play-2.2.3;0.1.5
-[debug] 		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-2.2.3/0.1.5/trace-play-2.2.3-0.1.5.pom (0.1.5)
-[debug] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-2.2.3/0.1.5/trace-play-2.2.3-0.1.5.pom ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-2.2.3/0.1.5/trace-play-2.2.3-0.1.5.pom
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-2.2.3/0.1.5/trace-play-2.2.3-0.1.5.pom.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-2.2.3/0.1.5/trace-play-2.2.3-0.1.5.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.trace#trace-play-2.2.3;0.1.5!trace-play-2.2.3.pom(pom.original) (481ms)
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.trace\trace-play-2.2.3\0.1.5\jars\trace-play-2.2.3.jar
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.trace/trace-play-2.2.3/0.1.5/jars/trace-play-2.2.3.jar
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/trace/trace-play-2.2.3/0.1.5/trace-play-2.2.3-0.1.5.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/trace/trace-play-2.2.3/0.1.5/trace-play-2.2.3-0.1.5.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-2.2.3/0.1.5/trace-play-2.2.3-0.1.5.jar
-[debug] 	found com.typesafe.trace#trace-play-2.2.3;0.1.5 in Typesafe Releases Repository
+[debug] sbt-chain: module revision found in cache: com.typesafe.trace#trace-play-2.2.3;0.1.5
+[debug] 	local: revision in cache: com.typesafe.trace#trace-play-2.2.3;0.1.5
+[debug] 	found com.typesafe.trace#trace-play-2.2.3;0.1.5 in sbt-chain
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->com.typesafe.trace#trace-play-2.2.3;0.1.5 [echo-trace-compile->runtime]
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->com.typesafe.trace#trace-play-2.2.3;0.1.5 [echo-trace-compile->compile]
 [debug] == resolving dependencies com.typesafe.trace#trace-play-2.2.3;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
@@ -8305,135 +8126,45 @@
 [debug] == resolving dependencies com.typesafe.trace#trace-play-2.2.3;0.1.5->com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5 [compile->master(*)]
 [info] Resolving com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.trace\trace-akka-2.2.4_2.10\0.1.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.trace/trace-akka-2.2.4_2.10/0.1.5/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/trace/trace-akka-2.2.4_2.10/0.1.5/trace-akka-2.2.4_2.10-0.1.5.pom
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/trace/trace-akka-2.2.4_2.10/0.1.5/trace-akka-2.2.4_2.10-0.1.5.pom
-[debug] 	public: no ivy file found for com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-akka-2.2.4_2.10/0.1.5/trace-akka-2.2.4_2.10-0.1.5.pom
-[debug] 	Typesafe Releases Repository: found md file for com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5
-[debug] 		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-akka-2.2.4_2.10/0.1.5/trace-akka-2.2.4_2.10-0.1.5.pom (0.1.5)
-[debug] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-akka-2.2.4_2.10/0.1.5/trace-akka-2.2.4_2.10-0.1.5.pom ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-akka-2.2.4_2.10/0.1.5/trace-akka-2.2.4_2.10-0.1.5.pom
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-akka-2.2.4_2.10/0.1.5/trace-akka-2.2.4_2.10-0.1.5.pom.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-akka-2.2.4_2.10/0.1.5/trace-akka-2.2.4_2.10-0.1.5.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5!trace-akka-2.2.4_2.10.pom(pom.original) (563ms)
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.trace\trace-akka-2.2.4_2.10\0.1.5\jars\trace-akka-2.2.4_2.10.jar
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.trace/trace-akka-2.2.4_2.10/0.1.5/jars/trace-akka-2.2.4_2.10.jar
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/trace/trace-akka-2.2.4_2.10/0.1.5/trace-akka-2.2.4_2.10-0.1.5.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/trace/trace-akka-2.2.4_2.10/0.1.5/trace-akka-2.2.4_2.10-0.1.5.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-akka-2.2.4_2.10/0.1.5/trace-akka-2.2.4_2.10-0.1.5.jar
-[debug] 	found com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5 in Typesafe Releases Repository
+[debug] sbt-chain: module revision found in cache: com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5
+[debug] 	local: revision in cache: com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5
+[debug] 	found com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5 in sbt-chain
 [debug] == resolving dependencies com.typesafe.trace#trace-play-2.2.3;0.1.5->com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] == resolving dependencies com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5->com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5 [compile->master(*)]
 [info] Resolving com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.trace\trace-scala-protobuf24-2.10.4\0.1.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.trace/trace-scala-protobuf24-2.10.4/0.1.5/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/trace/trace-scala-protobuf24-2.10.4/0.1.5/trace-scala-protobuf24-2.10.4-0.1.5.pom
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/trace/trace-scala-protobuf24-2.10.4/0.1.5/trace-scala-protobuf24-2.10.4-0.1.5.pom
-[debug] 	public: no ivy file found for com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-scala-protobuf24-2.10.4/0.1.5/trace-scala-protobuf24-2.10.4-0.1.5.pom
-[debug] 	Typesafe Releases Repository: found md file for com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5
-[debug] 		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-scala-protobuf24-2.10.4/0.1.5/trace-scala-protobuf24-2.10.4-0.1.5.pom (0.1.5)
-[debug] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-scala-protobuf24-2.10.4/0.1.5/trace-scala-protobuf24-2.10.4-0.1.5.pom ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-scala-protobuf24-2.10.4/0.1.5/trace-scala-protobuf24-2.10.4-0.1.5.pom
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-scala-protobuf24-2.10.4/0.1.5/trace-scala-protobuf24-2.10.4-0.1.5.pom.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-scala-protobuf24-2.10.4/0.1.5/trace-scala-protobuf24-2.10.4-0.1.5.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5!trace-scala-protobuf24-2.10.4.pom(pom.original) (506ms)
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.trace\trace-scala-protobuf24-2.10.4\0.1.5\jars\trace-scala-protobuf24-2.10.4.jar
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.trace/trace-scala-protobuf24-2.10.4/0.1.5/jars/trace-scala-protobuf24-2.10.4.jar
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/trace/trace-scala-protobuf24-2.10.4/0.1.5/trace-scala-protobuf24-2.10.4-0.1.5.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/trace/trace-scala-protobuf24-2.10.4/0.1.5/trace-scala-protobuf24-2.10.4-0.1.5.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-scala-protobuf24-2.10.4/0.1.5/trace-scala-protobuf24-2.10.4-0.1.5.jar
-[debug] 	found com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5 in Typesafe Releases Repository
+[debug] sbt-chain: module revision found in cache: com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5
+[debug] 	local: revision in cache: com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5
+[debug] 	found com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5 in sbt-chain
 [debug] == resolving dependencies com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5->com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] == resolving dependencies com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5->com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5 [compile->master(*)]
 [info] Resolving com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.trace\trace-core-protobuf24_2.10\0.1.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.trace/trace-core-protobuf24_2.10/0.1.5/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/trace/trace-core-protobuf24_2.10/0.1.5/trace-core-protobuf24_2.10-0.1.5.pom
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/trace/trace-core-protobuf24_2.10/0.1.5/trace-core-protobuf24_2.10-0.1.5.pom
-[debug] 	public: no ivy file found for com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-core-protobuf24_2.10/0.1.5/trace-core-protobuf24_2.10-0.1.5.pom
-[debug] 	Typesafe Releases Repository: found md file for com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5
-[debug] 		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-core-protobuf24_2.10/0.1.5/trace-core-protobuf24_2.10-0.1.5.pom (0.1.5)
-[debug] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-core-protobuf24_2.10/0.1.5/trace-core-protobuf24_2.10-0.1.5.pom ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-core-protobuf24_2.10/0.1.5/trace-core-protobuf24_2.10-0.1.5.pom
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-core-protobuf24_2.10/0.1.5/trace-core-protobuf24_2.10-0.1.5.pom.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-core-protobuf24_2.10/0.1.5/trace-core-protobuf24_2.10-0.1.5.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5!trace-core-protobuf24_2.10.pom(pom.original) (512ms)
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.trace\trace-core-protobuf24_2.10\0.1.5\jars\trace-core-protobuf24_2.10.jar
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.trace/trace-core-protobuf24_2.10/0.1.5/jars/trace-core-protobuf24_2.10.jar
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/trace/trace-core-protobuf24_2.10/0.1.5/trace-core-protobuf24_2.10-0.1.5.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/trace/trace-core-protobuf24_2.10/0.1.5/trace-core-protobuf24_2.10-0.1.5.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-core-protobuf24_2.10/0.1.5/trace-core-protobuf24_2.10-0.1.5.jar
-[debug] 	found com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5 in Typesafe Releases Repository
+[debug] sbt-chain: module revision found in cache: com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5
+[debug] 	local: revision in cache: com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5
+[debug] 	found com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5 in sbt-chain
 [debug] == resolving dependencies com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5->com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] == resolving dependencies com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5->com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5 [compile->master(*)]
 [info] Resolving com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.trace\trace-event-protobuf24_2.10\0.1.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.trace/trace-event-protobuf24_2.10/0.1.5/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/trace/trace-event-protobuf24_2.10/0.1.5/trace-event-protobuf24_2.10-0.1.5.pom
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/trace/trace-event-protobuf24_2.10/0.1.5/trace-event-protobuf24_2.10-0.1.5.pom
-[debug] 	public: no ivy file found for com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-event-protobuf24_2.10/0.1.5/trace-event-protobuf24_2.10-0.1.5.pom
-[debug] 	Typesafe Releases Repository: found md file for com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5
-[debug] 		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-event-protobuf24_2.10/0.1.5/trace-event-protobuf24_2.10-0.1.5.pom (0.1.5)
-[debug] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-event-protobuf24_2.10/0.1.5/trace-event-protobuf24_2.10-0.1.5.pom ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-event-protobuf24_2.10/0.1.5/trace-event-protobuf24_2.10-0.1.5.pom
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-event-protobuf24_2.10/0.1.5/trace-event-protobuf24_2.10-0.1.5.pom.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-event-protobuf24_2.10/0.1.5/trace-event-protobuf24_2.10-0.1.5.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5!trace-event-protobuf24_2.10.pom(pom.original) (539ms)
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.trace\trace-event-protobuf24_2.10\0.1.5\jars\trace-event-protobuf24_2.10.jar
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.trace/trace-event-protobuf24_2.10/0.1.5/jars/trace-event-protobuf24_2.10.jar
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/trace/trace-event-protobuf24_2.10/0.1.5/trace-event-protobuf24_2.10-0.1.5.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/trace/trace-event-protobuf24_2.10/0.1.5/trace-event-protobuf24_2.10-0.1.5.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-event-protobuf24_2.10/0.1.5/trace-event-protobuf24_2.10-0.1.5.jar
-[debug] 	found com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5 in Typesafe Releases Repository
+[debug] sbt-chain: module revision found in cache: com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5
+[debug] 	local: revision in cache: com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5
+[debug] 	found com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5 in sbt-chain
 [debug] == resolving dependencies com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5->com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] == resolving dependencies com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5->com.typesafe.trace#protocol-protobuf24;0.1.5 [compile->master(*)]
 [info] Resolving com.typesafe.trace#protocol-protobuf24;0.1.5 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.trace#protocol-protobuf24;0.1.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.trace\protocol-protobuf24\0.1.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.trace#protocol-protobuf24;0.1.5
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.trace/protocol-protobuf24/0.1.5/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.trace#protocol-protobuf24;0.1.5
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/trace/protocol-protobuf24/0.1.5/protocol-protobuf24-0.1.5.pom
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/trace/protocol-protobuf24/0.1.5/protocol-protobuf24-0.1.5.pom
-[debug] 	public: no ivy file found for com.typesafe.trace#protocol-protobuf24;0.1.5
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/protocol-protobuf24/0.1.5/protocol-protobuf24-0.1.5.pom
-[debug] 	Typesafe Releases Repository: found md file for com.typesafe.trace#protocol-protobuf24;0.1.5
-[debug] 		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/protocol-protobuf24/0.1.5/protocol-protobuf24-0.1.5.pom (0.1.5)
-[debug] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/protocol-protobuf24/0.1.5/protocol-protobuf24-0.1.5.pom ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/protocol-protobuf24/0.1.5/protocol-protobuf24-0.1.5.pom
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/protocol-protobuf24/0.1.5/protocol-protobuf24-0.1.5.pom.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/protocol-protobuf24/0.1.5/protocol-protobuf24-0.1.5.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.trace#protocol-protobuf24;0.1.5!protocol-protobuf24.pom(pom.original) (441ms)
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.trace\protocol-protobuf24\0.1.5\jars\protocol-protobuf24.jar
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.trace/protocol-protobuf24/0.1.5/jars/protocol-protobuf24.jar
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/trace/protocol-protobuf24/0.1.5/protocol-protobuf24-0.1.5.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/trace/protocol-protobuf24/0.1.5/protocol-protobuf24-0.1.5.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/protocol-protobuf24/0.1.5/protocol-protobuf24-0.1.5.jar
-[debug] 	found com.typesafe.trace#protocol-protobuf24;0.1.5 in Typesafe Releases Repository
+[debug] sbt-chain: module revision found in cache: com.typesafe.trace#protocol-protobuf24;0.1.5
+[debug] 	local: revision in cache: com.typesafe.trace#protocol-protobuf24;0.1.5
+[debug] 	found com.typesafe.trace#protocol-protobuf24;0.1.5 in sbt-chain
 [debug] == resolving dependencies com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5->com.typesafe.trace#protocol-protobuf24;0.1.5 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.trace#protocol-protobuf24;0.1.5->com.google.protobuf#protobuf-java;2.4.1 [compile->master(*)]
 [debug] == resolving dependencies com.typesafe.trace#protocol-protobuf24;0.1.5->com.google.protobuf#protobuf-java;2.4.1 [compile->compile(*)]
@@ -8582,27 +8313,9 @@
 [debug] == resolving dependencies com.typesafe.trace#trace-play-2.2.3;0.1.5->com.typesafe.trace#trace-play-common;0.1.5 [compile->master(*)]
 [info] Resolving com.typesafe.trace#trace-play-common;0.1.5 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.trace#trace-play-common;0.1.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.trace\trace-play-common\0.1.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.trace#trace-play-common;0.1.5
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.trace/trace-play-common/0.1.5/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.trace#trace-play-common;0.1.5
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/trace/trace-play-common/0.1.5/trace-play-common-0.1.5.pom
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/trace/trace-play-common/0.1.5/trace-play-common-0.1.5.pom
-[debug] 	public: no ivy file found for com.typesafe.trace#trace-play-common;0.1.5
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-common/0.1.5/trace-play-common-0.1.5.pom
-[debug] 	Typesafe Releases Repository: found md file for com.typesafe.trace#trace-play-common;0.1.5
-[debug] 		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-common/0.1.5/trace-play-common-0.1.5.pom (0.1.5)
-[debug] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-common/0.1.5/trace-play-common-0.1.5.pom ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-common/0.1.5/trace-play-common-0.1.5.pom
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-common/0.1.5/trace-play-common-0.1.5.pom.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-common/0.1.5/trace-play-common-0.1.5.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.trace#trace-play-common;0.1.5!trace-play-common.pom(pom.original) (438ms)
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.trace\trace-play-common\0.1.5\jars\trace-play-common.jar
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.trace/trace-play-common/0.1.5/jars/trace-play-common.jar
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/trace/trace-play-common/0.1.5/trace-play-common-0.1.5.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/trace/trace-play-common/0.1.5/trace-play-common-0.1.5.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-common/0.1.5/trace-play-common-0.1.5.jar
-[debug] 	found com.typesafe.trace#trace-play-common;0.1.5 in Typesafe Releases Repository
+[debug] sbt-chain: module revision found in cache: com.typesafe.trace#trace-play-common;0.1.5
+[debug] 	local: revision in cache: com.typesafe.trace#trace-play-common;0.1.5
+[debug] 	found com.typesafe.trace#trace-play-common;0.1.5 in sbt-chain
 [debug] == resolving dependencies com.typesafe.trace#trace-play-2.2.3;0.1.5->com.typesafe.trace#trace-play-common;0.1.5 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.trace#trace-play-common;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] == resolving dependencies com.typesafe.trace#trace-play-common;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
@@ -10073,66 +9786,23 @@
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->com.typesafe.trace#trace-sigar-libs;0.1.5 [echo-sigar->default(compile)]
 [info] Resolving com.typesafe.trace#trace-sigar-libs;0.1.5 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.trace#trace-sigar-libs;0.1.5 {echo-sigar=[default(compile)]}
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.trace\trace-sigar-libs\0.1.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.trace#trace-sigar-libs;0.1.5
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.trace/trace-sigar-libs/0.1.5/ivys/ivy.xml
-[debug] 	activator-local: no ivy file found for com.typesafe.trace#trace-sigar-libs;0.1.5
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/trace/trace-sigar-libs/0.1.5/trace-sigar-libs-0.1.5.pom
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/trace/trace-sigar-libs/0.1.5/trace-sigar-libs-0.1.5.pom
-[debug] 	public: no ivy file found for com.typesafe.trace#trace-sigar-libs;0.1.5
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-sigar-libs/0.1.5/trace-sigar-libs-0.1.5.pom
-[debug] 	Typesafe Releases Repository: found md file for com.typesafe.trace#trace-sigar-libs;0.1.5
-[debug] 		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-sigar-libs/0.1.5/trace-sigar-libs-0.1.5.pom (0.1.5)
-[debug] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-sigar-libs/0.1.5/trace-sigar-libs-0.1.5.pom ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-sigar-libs/0.1.5/trace-sigar-libs-0.1.5.pom
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-sigar-libs/0.1.5/trace-sigar-libs-0.1.5.pom.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-sigar-libs/0.1.5/trace-sigar-libs-0.1.5.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.trace#trace-sigar-libs;0.1.5!trace-sigar-libs.pom(pom.original) (465ms)
-[debug] 		tried C:\Users\Arnoud\.ivy2\local\com.typesafe.trace\trace-sigar-libs\0.1.5\jars\trace-sigar-libs.jar
-[debug] 		tried file:/C:/activator-1.2.10/repository/com.typesafe.trace/trace-sigar-libs/0.1.5/jars/trace-sigar-libs.jar
-[debug] 		tried http://repo1.maven.org/maven2/com/typesafe/trace/trace-sigar-libs/0.1.5/trace-sigar-libs-0.1.5.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/typesafe/trace/trace-sigar-libs/0.1.5/trace-sigar-libs-0.1.5.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-sigar-libs/0.1.5/trace-sigar-libs-0.1.5.jar
-[debug] 	found com.typesafe.trace#trace-sigar-libs;0.1.5 in Typesafe Releases Repository
+[debug] sbt-chain: module revision found in cache: com.typesafe.trace#trace-sigar-libs;0.1.5
+[debug] 	local: revision in cache: com.typesafe.trace#trace-sigar-libs;0.1.5
+[debug] 	found com.typesafe.trace#trace-sigar-libs;0.1.5 in sbt-chain
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->com.typesafe.trace#trace-sigar-libs;0.1.5 [echo-sigar->runtime]
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->com.typesafe.trace#trace-sigar-libs;0.1.5 [echo-sigar->compile]
 [debug] == resolving dependencies play-reactive-mongo#play-reactive-mongo_2.10;0.0.4->com.typesafe.trace#trace-sigar-libs;0.1.5 [echo-sigar->master]
-[debug] 	resolved ivy file produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\play-reactive-mongo\play-reactive-mongo_2.10\0.0.4\resolved.xml.xml
+[debug] 	resolved ivy file produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\play-reactive-mongo\play-reactive-mongo_2.10\0.0.4\resolved.xml.xml
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.10/2.2.3/play_2.10-2.2.3.jar
-[info] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.10/2.2.3/play_2.10-2.2.3.jar ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.10/2.2.3/play_2.10-2.2.3.jar
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.10/2.2.3/play_2.10-2.2.3.jar.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.10/2.2.3/play_2.10-2.2.3.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play_2.10;2.2.3!play_2.10.jar (3563ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play_2.10;2.2.3!play_2.10.jar
 [debug] 	[NOT REQUIRED] reactive_mongo_plugin#reactive_mongo_plugin_2.10;0.0.30!reactive_mongo_plugin_2.10.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#sbt-link;2.2.3!sbt-link.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-exceptions;2.2.3!play-exceptions.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates_2.10/2.2.3/templates_2.10-2.2.3.jar
-[info] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates_2.10/2.2.3/templates_2.10-2.2.3.jar ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates_2.10/2.2.3/templates_2.10-2.2.3.jar
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates_2.10/2.2.3/templates_2.10-2.2.3.jar.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates_2.10/2.2.3/templates_2.10-2.2.3.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#templates_2.10;2.2.3!templates_2.10.jar (545ms)
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.3/play-iteratees_2.10-2.2.3.jar
-[info] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.3/play-iteratees_2.10-2.2.3.jar ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.3/play-iteratees_2.10-2.2.3.jar
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.3/play-iteratees_2.10-2.2.3.jar.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.3/play-iteratees_2.10-2.2.3.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-iteratees_2.10;2.2.3!play-iteratees_2.10.jar (1533ms)
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.3/play-json_2.10-2.2.3.jar
-[info] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.3/play-json_2.10-2.2.3.jar ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.3/play-json_2.10-2.2.3.jar
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.3/play-json_2.10-2.2.3.jar.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.3/play-json_2.10-2.2.3.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.10;2.2.3!play-json_2.10.jar (978ms)
-[debug] 		tried http://repo1.maven.org/maven2/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.jar
-[info] downloading http://repo1.maven.org/maven2/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.jar ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.jar
-[debug] 	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.jar.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.jar
-[info] 	[SUCCESSFUL ] io.netty#netty;3.7.1.Final!netty.jar(bundle) (731ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#templates_2.10;2.2.3!templates_2.10.jar
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-iteratees_2.10;2.2.3!play-iteratees_2.10.jar
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.10;2.2.3!play-json_2.10.jar
+[debug] 	[NOT REQUIRED] io.netty#netty;3.7.1.Final!netty.jar(bundle)
 [debug] 	[NOT REQUIRED] com.typesafe.netty#netty-http-pipelining;1.1.2!netty-http-pipelining.jar
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar
 [debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.5!jul-to-slf4j.jar
@@ -10159,18 +9829,8 @@
 [debug] 	[NOT REQUIRED] com.github.scala-incubator.io#scala-io-core_2.10;0.4.2!scala-io-core_2.10.jar
 [debug] 	[NOT REQUIRED] com.jsuereth#scala-arm_2.10;1.3!scala-arm_2.10.jar
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.0.2!config.jar(bundle)
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.3/play-functional_2.10-2.2.3.jar
-[info] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.3/play-functional_2.10-2.2.3.jar ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.3/play-functional_2.10-2.2.3.jar
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.3/play-functional_2.10-2.2.3.jar.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.3/play-functional_2.10-2.2.3.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.10;2.2.3!play-functional_2.10.jar (1765ms)
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.3/play-datacommons_2.10-2.2.3.jar
-[info] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.3/play-datacommons_2.10-2.2.3.jar ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.3/play-datacommons_2.10-2.2.3.jar
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.3/play-datacommons_2.10-2.2.3.jar.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.3/play-datacommons_2.10-2.2.3.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-datacommons_2.10;2.2.3!play-datacommons_2.10.jar (664ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.10;2.2.3!play-functional_2.10.jar
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-datacommons_2.10;2.2.3!play-datacommons_2.10.jar
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.3!commons-codec.jar
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.0.1!httpcore.jar
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.0.1!httpclient.jar
@@ -10186,12 +9846,7 @@
 [debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.0-beta9!log4j-core.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.2!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.reactivemongo#reactivemongo-bson_2.10;0.10.0!reactivemongo-bson_2.10.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-test_2.10/2.2.3/play-test_2.10-2.2.3.jar
-[info] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-test_2.10/2.2.3/play-test_2.10-2.2.3.jar ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-test_2.10/2.2.3/play-test_2.10-2.2.3.jar
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-test_2.10/2.2.3/play-test_2.10-2.2.3.jar.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-test_2.10/2.2.3/play-test_2.10-2.2.3.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-test_2.10;2.2.3!play-test_2.10.jar (724ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-test_2.10;2.2.3!play-test_2.10.jar
 [debug] 	[NOT REQUIRED] junit#junit;4.11!junit.jar
 [debug] 	[NOT REQUIRED] org.specs2#specs2_2.10;2.1.1!specs2_2.10.jar
 [debug] 	[NOT REQUIRED] com.novocode#junit-interface;0.10!junit-interface.jar
@@ -10240,12 +9895,7 @@
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.9.v20130131!jetty-io.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.9.v20130131!jetty-http.jar
 [debug] 	[NOT REQUIRED] org.easytesting#fest-util;1.1.6!fest-util.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-docs_2.10/2.2.3/play-docs_2.10-2.2.3.jar
-[info] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-docs_2.10/2.2.3/play-docs_2.10-2.2.3.jar ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-docs_2.10/2.2.3/play-docs_2.10-2.2.3.jar
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-docs_2.10/2.2.3/play-docs_2.10-2.2.3.jar.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-docs_2.10/2.2.3/play-docs_2.10-2.2.3.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-docs_2.10;2.2.3!play-docs_2.10.jar (6468ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-docs_2.10;2.2.3!play-docs_2.10.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-doc_2.10;1.0.3!play-doc_2.10.jar
 [debug] 	[NOT REQUIRED] org.pegdown#pegdown;1.4.0!pegdown.jar
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar
@@ -10272,81 +9922,41 @@
 [debug] 	[NOT REQUIRED] com.typesafe.console#console-solo;1.3.1!console-solo.jar
 [debug] 	[NOT REQUIRED] org.aspectj#aspectjweaver;1.7.3!aspectjweaver.jar
 [debug] 	[NOT REQUIRED] com.typesafe.atmos#atmos-sigar-libs;1.3.1!atmos-sigar-libs.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-2.2.3/0.1.5/trace-play-2.2.3-0.1.5.jar
-[info] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-2.2.3/0.1.5/trace-play-2.2.3-0.1.5.jar ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-2.2.3/0.1.5/trace-play-2.2.3-0.1.5.jar
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-2.2.3/0.1.5/trace-play-2.2.3-0.1.5.jar.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-2.2.3/0.1.5/trace-play-2.2.3-0.1.5.jar
-[info] 	[SUCCESSFUL ] com.typesafe.trace#trace-play-2.2.3;0.1.5!trace-play-2.2.3.jar (732ms)
+[debug] 	[NOT REQUIRED] com.typesafe.trace#trace-play-2.2.3;0.1.5!trace-play-2.2.3.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-akka-2.2.4_2.10/0.1.5/trace-akka-2.2.4_2.10-0.1.5.jar
-[info] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-akka-2.2.4_2.10/0.1.5/trace-akka-2.2.4_2.10-0.1.5.jar ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-akka-2.2.4_2.10/0.1.5/trace-akka-2.2.4_2.10-0.1.5.jar
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-akka-2.2.4_2.10/0.1.5/trace-akka-2.2.4_2.10-0.1.5.jar.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-akka-2.2.4_2.10/0.1.5/trace-akka-2.2.4_2.10-0.1.5.jar
-[info] 	[SUCCESSFUL ] com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5!trace-akka-2.2.4_2.10.jar (701ms)
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-common/0.1.5/trace-play-common-0.1.5.jar
-[info] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-common/0.1.5/trace-play-common-0.1.5.jar ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-common/0.1.5/trace-play-common-0.1.5.jar
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-common/0.1.5/trace-play-common-0.1.5.jar.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-play-common/0.1.5/trace-play-common-0.1.5.jar
-[info] 	[SUCCESSFUL ] com.typesafe.trace#trace-play-common;0.1.5!trace-play-common.jar (454ms)
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-scala-protobuf24-2.10.4/0.1.5/trace-scala-protobuf24-2.10.4-0.1.5.jar
-[info] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-scala-protobuf24-2.10.4/0.1.5/trace-scala-protobuf24-2.10.4-0.1.5.jar ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-scala-protobuf24-2.10.4/0.1.5/trace-scala-protobuf24-2.10.4-0.1.5.jar
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-scala-protobuf24-2.10.4/0.1.5/trace-scala-protobuf24-2.10.4-0.1.5.jar.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-scala-protobuf24-2.10.4/0.1.5/trace-scala-protobuf24-2.10.4-0.1.5.jar
-[info] 	[SUCCESSFUL ] com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5!trace-scala-protobuf24-2.10.4.jar (596ms)
+[debug] 	[NOT REQUIRED] com.typesafe.trace#trace-akka-2.2.4_2.10;0.1.5!trace-akka-2.2.4_2.10.jar
+[debug] 	[NOT REQUIRED] com.typesafe.trace#trace-play-common;0.1.5!trace-play-common.jar
+[debug] 	[NOT REQUIRED] com.typesafe.trace#trace-scala-protobuf24-2.10.4;0.1.5!trace-scala-protobuf24-2.10.4.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.2.4!akka-actor_2.10.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.10;2.2.4!akka-remote_2.10.jar(bundle)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.10;2.2.4!akka-slf4j_2.10.jar(bundle)
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-core-protobuf24_2.10/0.1.5/trace-core-protobuf24_2.10-0.1.5.jar
-[info] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-core-protobuf24_2.10/0.1.5/trace-core-protobuf24_2.10-0.1.5.jar ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-core-protobuf24_2.10/0.1.5/trace-core-protobuf24_2.10-0.1.5.jar
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-core-protobuf24_2.10/0.1.5/trace-core-protobuf24_2.10-0.1.5.jar.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-core-protobuf24_2.10/0.1.5/trace-core-protobuf24_2.10-0.1.5.jar
-[info] 	[SUCCESSFUL ] com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5!trace-core-protobuf24_2.10.jar (823ms)
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-event-protobuf24_2.10/0.1.5/trace-event-protobuf24_2.10-0.1.5.jar
-[info] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-event-protobuf24_2.10/0.1.5/trace-event-protobuf24_2.10-0.1.5.jar ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-event-protobuf24_2.10/0.1.5/trace-event-protobuf24_2.10-0.1.5.jar
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-event-protobuf24_2.10/0.1.5/trace-event-protobuf24_2.10-0.1.5.jar.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-event-protobuf24_2.10/0.1.5/trace-event-protobuf24_2.10-0.1.5.jar
-[info] 	[SUCCESSFUL ] com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5!trace-event-protobuf24_2.10.jar (2418ms)
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/protocol-protobuf24/0.1.5/protocol-protobuf24-0.1.5.jar
-[info] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/protocol-protobuf24/0.1.5/protocol-protobuf24-0.1.5.jar ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/protocol-protobuf24/0.1.5/protocol-protobuf24-0.1.5.jar
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/protocol-protobuf24/0.1.5/protocol-protobuf24-0.1.5.jar.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/protocol-protobuf24/0.1.5/protocol-protobuf24-0.1.5.jar
-[info] 	[SUCCESSFUL ] com.typesafe.trace#protocol-protobuf24;0.1.5!protocol-protobuf24.jar (855ms)
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-sigar-libs/0.1.5/trace-sigar-libs-0.1.5.jar
-[info] downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-sigar-libs/0.1.5/trace-sigar-libs-0.1.5.jar ...
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-sigar-libs/0.1.5/trace-sigar-libs-0.1.5.jar
-[debug] 	Typesafe Releases Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-sigar-libs/0.1.5/trace-sigar-libs-0.1.5.jar.sha1
-[debug] sha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-sigar-libs/0.1.5/trace-sigar-libs-0.1.5.jar
-[info] 	[SUCCESSFUL ] com.typesafe.trace#trace-sigar-libs;0.1.5!trace-sigar-libs.jar (4667ms)
-[debug] :: resolution report :: resolve 20231ms :: artifacts dl 28345ms
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 compile produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-compile.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 runtime produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-runtime.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 test produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-test.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 provided produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-provided.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 optional produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-optional.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 compile-internal produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-compile-internal.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 runtime-internal produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-runtime-internal.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 test-internal produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-test-internal.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 plugin produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-plugin.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 sources produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-sources.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 docs produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-docs.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 pom produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-pom.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 scala-tool produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-scala-tool.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 atmos-trace-compile produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-atmos-trace-compile.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 atmos-trace-test produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-atmos-trace-test.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 atmos-dev produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-atmos-dev.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 atmos-console produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-atmos-console.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 atmos-weave produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-atmos-weave.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 atmos-sigar produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-atmos-sigar.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 echo-trace-compile produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-echo-trace-compile.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 echo-trace-test produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-echo-trace-test.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 echo-weave produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-echo-weave.xml
-[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 echo-sigar produced in C:\Users\Arnoud\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-echo-sigar.xml
-[debug] 	resolve done (20231ms resolve - 28345ms download)
+[debug] 	[NOT REQUIRED] com.typesafe.trace#trace-core-protobuf24_2.10;0.1.5!trace-core-protobuf24_2.10.jar
+[debug] 	[NOT REQUIRED] com.typesafe.trace#trace-event-protobuf24_2.10;0.1.5!trace-event-protobuf24_2.10.jar
+[debug] 	[NOT REQUIRED] com.typesafe.trace#protocol-protobuf24;0.1.5!protocol-protobuf24.jar
+[debug] 	[NOT REQUIRED] com.typesafe.trace#trace-sigar-libs;0.1.5!trace-sigar-libs.jar
+[debug] :: resolution report :: resolve 2508ms :: artifacts dl 108ms
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 compile produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-compile.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 runtime produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-runtime.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 test produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-test.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 provided produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-provided.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 optional produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-optional.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 compile-internal produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-compile-internal.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 runtime-internal produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-runtime-internal.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 test-internal produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-test-internal.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 plugin produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-plugin.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 sources produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-sources.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 docs produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-docs.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 pom produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-pom.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 scala-tool produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-scala-tool.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 atmos-trace-compile produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-atmos-trace-compile.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 atmos-trace-test produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-atmos-trace-test.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 atmos-dev produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-atmos-dev.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 atmos-console produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-atmos-console.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 atmos-weave produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-atmos-weave.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 atmos-sigar produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-atmos-sigar.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 echo-trace-compile produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-echo-trace-compile.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 echo-trace-test produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-echo-trace-test.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 echo-weave produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-echo-weave.xml
+[debug] 	report for play-reactive-mongo#play-reactive-mongo_2.10;0.0.4 echo-sigar produced in C:\Users\Arnoud\Stock-Market-2.0\play-reactive-mongo\target\resolution-cache\reports\play-reactive-mongo-play-reactive-mongo_2.10-echo-sigar.xml
+[debug] 	resolve done (2508ms resolve - 108ms download)
 [info] Done updating.
