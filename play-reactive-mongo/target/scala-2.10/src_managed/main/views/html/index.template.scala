@@ -49,24 +49,8 @@ Seq[Any](format.raw/*1.4*/("""
         <br />
         <div id="chartdiv"></div>
     </div>
-		
-		<!--<h1>Here's the little family: edit it and make it bigger!</h1>
-		
-    <div class="centered main">
-
-    		<a href="/granpa" class="main">Granpa
-    			<img src=""""),_display_(Seq[Any](/*37.19*/routes/*37.25*/.Assets.at("images/abe.png"))),format.raw/*37.53*/("""" />
-    		</a>
-    		<a href="/father" class="main">Father
-    			<img src=""""),_display_(Seq[Any](/*40.19*/routes/*40.25*/.Assets.at("images/homer.png"))),format.raw/*40.55*/("""" />
-    		</a>
-    		<a href="/son" class="main">Son
-    			<img src=""""),_display_(Seq[Any](/*43.19*/routes/*43.25*/.Assets.at("images/bart.png"))),format.raw/*43.54*/("""" />
-    		</a>
-
-    </div>-->
     
-""")))})),format.raw/*48.2*/("""
+""")))})),format.raw/*32.2*/("""
 """))}
     }
     
@@ -79,11 +63,11 @@ Seq[Any](format.raw/*1.4*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Wed Oct 15 16:40:14 CEST 2014
+                    DATE: Fri Oct 17 10:03:03 CEST 2014
                     SOURCE: C:/Users/Arnoud/Stock-Market-2.0/play-reactive-mongo/app/views/index.scala.html
-                    HASH: bc1bd1dae4a9ee6b03824a2af45868e0f05713e5
-                    MATRIX: 549->1|644->3|681->6|723->40|762->42|2078->1322|2093->1328|2143->1356|2257->1434|2272->1440|2324->1470|2432->1542|2447->1548|2498->1577|2566->1614
-                    LINES: 19->1|22->1|24->3|24->3|24->3|58->37|58->37|58->37|61->40|61->40|61->40|64->43|64->43|64->43|69->48
+                    HASH: cc9e215d7772c42b189d307ed9606d6ab5319530
+                    MATRIX: 549->1|644->3|681->6|723->40|762->42|1909->1158
+                    LINES: 19->1|22->1|24->3|24->3|24->3|53->32
                     -- GENERATED --
                 */
             
