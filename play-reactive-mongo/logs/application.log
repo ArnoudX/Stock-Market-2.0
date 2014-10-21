@@ -1,150 +1,15 @@
-2014-10-21 02:11:11,169 - [INFO] - from play in pool-12-thread-2 
+2014-10-21 12:07:51,740 - [INFO] - from play in pool-20-thread-5 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2014-10-21 02:11:35,599 - [INFO] - from application in play-internal-execution-context-1 
+2014-10-21 12:10:56,615 - [INFO] - from application in play-internal-execution-context-1 
 MongoDB db stock_db available
 
-2014-10-21 02:11:35,610 - [INFO] - from application in play-internal-execution-context-1 
+2014-10-21 12:10:56,638 - [INFO] - from application in play-internal-execution-context-1 
 MongoDB db reactive_due available
 
-2014-10-21 02:11:35,622 - [INFO] - from application in play-internal-execution-context-1 
+2014-10-21 12:10:56,648 - [INFO] - from application in play-internal-execution-context-1 
 MongoDB db reactive_uno available
 
-2014-10-21 02:11:37,987 - [INFO] - from play in play-internal-execution-context-1 
+2014-10-21 12:11:07,578 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
-
-2014-10-21 02:17:56,739 - [ERROR] - from application in New I/O worker #8 
-
-
-! @6k0l5gfld - Internal server error, for (GET) [/granpa] ->
-
-play.api.UnexpectedException: Unexpected exception[TimeoutException: Futures timed out after [3 seconds]]
-	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:148) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[na:na]
-	at scala.util.Success.flatMap(Try.scala:200) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[na:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
-	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[na:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[na:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[na:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[na:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[na:na]
-Caused by: java.util.concurrent.TimeoutException: Futures timed out after [3 seconds]
-	at scala.concurrent.impl.Promise$DefaultPromise.ready_aroundBody0(Promise.scala:219) ~[na:na]
-	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure1.run(Promise.scala:1) ~[na:na]
-	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$6$65eed613proceed(FutureTraceAspect.aj:182) ~[na:na]
-	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$6$65eed613(FutureTraceAspect.aj:186) ~[na:na]
-	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:218) ~[na:na]
-	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223) ~[na:na]
-	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:107) ~[na:na]
-	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53) ~[na:na]
-	at scala.concurrent.Await$.result(package.scala:107) ~[na:na]
-	at Global$.onStart(Global.scala:25) ~[na:na]
-	at play.api.GlobalPlugin.onStart(GlobalSettings.scala:203) ~[na:na]
-	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[na:na]
-	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[na:na]
-	at scala.collection.immutable.List.foreach(List.scala:318) ~[na:na]
-	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[na:na]
-	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[na:na]
-	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[na:na]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[na:na]
-	at play.api.Play$.start(Play.scala:87) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[na:na]
-	... 15 common frames omitted
-
-2014-10-21 02:18:05,996 - [ERROR] - from application in New I/O worker #1 
-
-
-! @6k0l5gfld - Internal server error, for (GET) [/granpa] ->
-
-play.api.UnexpectedException: Unexpected exception[TimeoutException: Futures timed out after [3 seconds]]
-	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:148) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[na:na]
-	at scala.util.Success.flatMap(Try.scala:200) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[na:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
-	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[na:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[na:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[na:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[na:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[na:na]
-Caused by: java.util.concurrent.TimeoutException: Futures timed out after [3 seconds]
-	at scala.concurrent.impl.Promise$DefaultPromise.ready_aroundBody0(Promise.scala:219) ~[na:na]
-	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure1.run(Promise.scala:1) ~[na:na]
-	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$6$65eed613proceed(FutureTraceAspect.aj:182) ~[na:na]
-	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$6$65eed613(FutureTraceAspect.aj:186) ~[na:na]
-	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:218) ~[na:na]
-	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223) ~[na:na]
-	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:107) ~[na:na]
-	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53) ~[na:na]
-	at scala.concurrent.Await$.result(package.scala:107) ~[na:na]
-	at Global$.onStart(Global.scala:25) ~[na:na]
-	at play.api.GlobalPlugin.onStart(GlobalSettings.scala:203) ~[na:na]
-	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[na:na]
-	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[na:na]
-	at scala.collection.immutable.List.foreach(List.scala:318) ~[na:na]
-	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[na:na]
-	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[na:na]
-	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[na:na]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[na:na]
-	at play.api.Play$.start(Play.scala:87) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[na:na]
-	... 15 common frames omitted
-
-2014-10-21 02:18:21,890 - [ERROR] - from application in New I/O worker #2 
-
-
-! @6k0l5gfld - Internal server error, for (GET) [/father] ->
-
-play.api.UnexpectedException: Unexpected exception[TimeoutException: Futures timed out after [3 seconds]]
-	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:148) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:112) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:110) ~[na:na]
-	at scala.util.Success.flatMap(Try.scala:200) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[na:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[na:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[na:na]
-	at com.typesafe.trace.FutureRunnable.run(FutureTrace.scala:119) ~[na:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[na:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[na:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[na:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[na:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[na:na]
-Caused by: java.util.concurrent.TimeoutException: Futures timed out after [3 seconds]
-	at scala.concurrent.impl.Promise$DefaultPromise.ready_aroundBody0(Promise.scala:219) ~[na:na]
-	at scala.concurrent.impl.Promise$DefaultPromise$AjcClosure1.run(Promise.scala:1) ~[na:na]
-	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$6$65eed613proceed(FutureTraceAspect.aj:182) ~[na:na]
-	at com.typesafe.trace.FutureTraceAspect.ajc$around$com_typesafe_trace_FutureTraceAspect$6$65eed613(FutureTraceAspect.aj:186) ~[na:na]
-	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:218) ~[na:na]
-	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223) ~[na:na]
-	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:107) ~[na:na]
-	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53) ~[na:na]
-	at scala.concurrent.Await$.result(package.scala:107) ~[na:na]
-	at Global$.onStart(Global.scala:25) ~[na:na]
-	at play.api.GlobalPlugin.onStart(GlobalSettings.scala:203) ~[na:na]
-	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[na:na]
-	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88) ~[na:na]
-	at scala.collection.immutable.List.foreach(List.scala:318) ~[na:na]
-	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88) ~[na:na]
-	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[na:na]
-	at play.api.Play$$anonfun$start$1.apply(Play.scala:88) ~[na:na]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[na:na]
-	at play.api.Play$.start(Play.scala:87) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:139) ~[na:na]
-	... 15 common frames omitted
 

@@ -49,8 +49,7 @@ Seq[Any](format.raw/*1.4*/("""
         <br />
         <div id="chartdiv"></div>
     </div>
-    
-""")))})),format.raw/*32.2*/("""
+""")))})),format.raw/*31.2*/("""
 """))}
     }
     
@@ -63,11 +62,11 @@ Seq[Any](format.raw/*1.4*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Fri Oct 17 10:03:03 CEST 2014
+                    DATE: Tue Oct 21 11:22:31 CEST 2014
                     SOURCE: C:/Users/Arnoud/Stock-Market-2.0/play-reactive-mongo/app/views/index.scala.html
-                    HASH: cc9e215d7772c42b189d307ed9606d6ab5319530
-                    MATRIX: 549->1|644->3|681->6|723->40|762->42|1909->1158
-                    LINES: 19->1|22->1|24->3|24->3|24->3|53->32
+                    HASH: 87c41145faef6b22268cf182cbb910f91c796e12
+                    MATRIX: 549->1|644->3|681->6|723->40|762->42|1904->1153
+                    LINES: 19->1|22->1|24->3|24->3|24->3|52->31
                     -- GENERATED --
                 */
             

@@ -1,6 +1,6 @@
 // @SOURCE:C:/Users/Arnoud/Stock-Market-2.0/play-reactive-mongo/conf/routes
-// @HASH:a2d5b9c52335f40ba43b0ba61b13a33894395ecf
-// @DATE:Mon Oct 20 15:33:52 CEST 2014
+// @HASH:1ef086a3e733a97b23a47e8826c66bbb7f1e3f74
+// @DATE:Tue Oct 21 12:01:14 CEST 2014
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._

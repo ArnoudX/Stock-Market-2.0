@@ -4,7 +4,7 @@
 		module="play-reactive-mongo_2.10"
 		revision="0.0.4"
 		status="integration"
-		publication="20141015164034"
+		publication="20141021103624"
 	>
 		<description>
 		play-reactive-mongo

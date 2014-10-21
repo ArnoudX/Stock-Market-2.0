@@ -13,10 +13,10 @@ case class Chart(
   id: BSONObjectID = BSONObjectID.generate,
   errors: String,
   source_name: String,
-  source_code: String
-  /*code: String,
-  name: String,
-  urlize_name: String,
+  source_code: String,
+  code: String,
+  name: String
+  /*urlize_name: String,
   display_url: String,
   description: String,
   updated_at: Option[DateTime],
@@ -34,9 +34,11 @@ object Chart{
   object ChartReader extends BSONDocumentReader[Chart] {
     def read(doc: BSONDocument): Chart = Chart(
         doc.getAs[BSONObjectID]("_id").get,
-        doc.getAs[String]("name").get,
+        doc.getAs[String]("errors").get,
         doc.getAs[String]("source_name").get,
-        doc.getAs[String]("source_code").get
+        doc.getAs[String]("source_code").get,
+        doc.getAs[String]("code").get,
+         doc.getAs[String]("name").get
     )
   }
 }

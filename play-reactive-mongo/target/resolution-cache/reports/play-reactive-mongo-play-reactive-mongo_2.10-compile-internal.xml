@@ -7,7 +7,7 @@
 		revision="0.0.4"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, atmos-trace-compile, atmos-trace-test, atmos-dev, atmos-console, atmos-weave, atmos-sigar, echo-trace-compile, echo-trace-test, echo-weave, echo-sigar"
-		date="20141015164034"/>
+		date="20141021103624"/>
 	<dependencies>
 		<module organisation="reactive_mongo_plugin" name="reactive_mongo_plugin_2.10">
 			<revision name="0.0.30" status="release" pubdate="20140530161917" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="40">
